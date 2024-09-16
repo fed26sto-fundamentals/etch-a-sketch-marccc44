@@ -1,0 +1,23 @@
+
+
+/* My css */
+
+button {
+    margin-bottom: 20px;
+}
+
+#container {
+  display: grid;
+  max-width: max-content;
+}
+
+#container div {
+  width: 40px;
+  height: 100%;
+  aspect-ratio: 1;
+  border: 1px solid black;
+}
+
+#container div:hover {
+  background-color: chartreuse;
+}
